@@ -6,6 +6,13 @@ body{
 
 a{
     color: #ECDFCC;
+    text-decoration: none;
+}
+footer{
+    background-color: #373b33;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
 }
 .img-hero{
     position: relative;
@@ -26,6 +33,12 @@ a{
     background-size: cover;
 }
 
-.content{ /*to keep the opacity content*/
+.content{
     position: relative;
 }
+
+@media only screen and (max-width: 768px) {/*Batas ukuran mobile*/
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
