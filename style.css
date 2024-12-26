@@ -10,7 +10,7 @@ a{
 }
 footer{
     background-color: #373b33;
-    position:absolute;
+    position:relative;
     bottom: 0;
     text-align: center;
 }
@@ -37,8 +37,6 @@ footer{
     position: relative;
 }
 
-@media only screen and (max-width: 768px) {/*Batas ukuran mobile*/
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
+@media screen and (max-width: 768px) {/*Batas ukuran mobile*/
+    
+}
