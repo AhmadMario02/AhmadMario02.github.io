@@ -36,6 +36,25 @@ a{
     position: relative;
 }
 
+#paragraf{
+    box-shadow: 0 0px 15px rgba(240, 240, 240, 0.2);
+    border-radius: 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.col{
+    padding: 3%;
+}
 @media screen and (max-width: 768px) {/*Batas ukuran mobile*/
-    
+    .col {
+        margin-top: 3%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .profilepic{
+        height: auto;
+        size: auto;
+    }
 }
