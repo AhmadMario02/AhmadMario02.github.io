@@ -1,60 +1,75 @@
-body{
-    background-color: #1E1E1E;
-    color: #ECDFCC;
-    font-family: monospace;
+body {
+  background-color: #1e1e1e;
+  color: #ecdfcc;
+  font-family: monospace;
 }
 
-a{
-    color: #ECDFCC;
-    text-decoration: none;
-}
-/* footer{
-    background-color: #373b33;
-    bottom: 0;
-    text-align: center;
-} */
-.img-hero{
-    position: relative;
-}
-.img-hero::before{
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.10;
-    background-image: url("assets/palestine code.png");
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+p,
+h1,
+h2,
+li:hover {
+  cursor: default;
 }
 
-.content{
-    position: relative;
+a {
+  color: #ecdfcc;
+  text-decoration: none;
+  transition: color 0.2s;
 }
 
-#paragraf{
-    box-shadow: 0 0px 15px rgba(240, 240, 240, 0.2);
-    border-radius: 15px;
-    font-family: "Plus Jakarta Sans", sans-serif;
+#ig:hover {
+  color: #e1306c;
+}
+#pin:hover {
+  color: #e60023;
+}
+#git:hover {
+  color: #333;
 }
 
-.col{
-    padding: 3%;
+.img-hero {
+  position: relative;
 }
-@media screen and (max-width: 768px) {/*Batas ukuran mobile*/
-    .col {
-        margin-top: 3%;
-    }
-    .row{
-        display: flex;
-        flex-direction: column;
-    }
-    .profilepic{
-        height: auto;
-        size: auto;
-    }
+.img-hero::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url("assets/palestine code.png");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+}
+
+#paragraf {
+  box-shadow: 0 0px 15px rgba(240, 240, 240, 0.2);
+  border-radius: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.col {
+  padding: 3%;
+}
+@media screen and (max-width: 768px) {
+  /*Batas ukuran mobile*/
+  .col {
+    margin-top: 3%;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .profilepic {
+    height: auto;
+    size: auto;
+  }
 }
